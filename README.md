@@ -32,4 +32,15 @@ ok.md
 
 ⚠ 13 warnings
 
-``
+```
+
+With `"remark-cli": "^8.0.0"`, output is:
+
+```
+$ npm run check
+
+> check
+> remark . -f
+
+ok.md: no issues found
+```
